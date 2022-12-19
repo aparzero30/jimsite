@@ -1,0 +1,155 @@
+.frm{
+
+    padding-top: 5vh;
+    height: max-content;
+    width: 30vw;
+    background-color: #2f3136;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-family: Poppins;
+    padding-bottom: 5vh;
+    border-radius: 3vh;
+}
+
+
+
+
+.rsm{
+    width: 30vw ;
+    height: max-content;
+    display: flex;
+    font-family: Poppins;
+    gap: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.dl{
+    height: max-content;
+    width: max-content;
+    font-size: 1vw;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    background-color: #60FEE7;
+    border-radius: 7vh;
+    font-weight: bold;
+}
+
+
+
+
+
+.gf{
+    height: 40vh;
+    width: 30vw;
+    background-image: url("bggif.gif");
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+}
+
+.frm input{
+    width: 80%;
+     font-size: 1vw;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+
+
+.frm textarea{
+    width: 80%;
+     font-size: 1vw;
+}
+
+.frm label{
+    width: 80%;
+    font-size: 1vw;
+    color: #60c6fe;
+}
+
+.send{
+    background-color: #60FEE7;
+    color: black;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 3vw;
+
+}
+
+
+#msgico{
+font-size: 5vw;
+color:#60FEE7;
+}
+.message{
+  
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    
+      .rsm{
+        gap: 0;
+        justify-content:f;     
+        align-items: center;
+        background-color: #2f3136;
+        width: 90% ;
+        padding-top: 3vw;
+        padding-bottom: 3vw;
+        border-radius: 0vh 0vh 3vh 3vh;
+        
+      }
+    .gf{
+     height: 0;
+     width: 0;
+        
+        }
+
+        .frm{
+            width: 90%;
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            border-radius: 3vh 3vh 0vh 0;
+        }
+
+        #msgico{
+            font-size: 25vw;
+        }
+
+        .frm input{
+            width: 80%;
+             font-size: 3vw;
+             padding-top: 10px;
+             padding-bottom: 10px;
+        }
+
+        .frm textarea{
+            width: 80%;
+             font-size: 3vw;
+        }
+
+        .frm label{
+            width: 80%;
+            font-size: 3vw;
+            color: #60c6fe;
+        }
+
+        .dl{
+            font-size: 2vw;
+        }
+
+        .send{
+            font-size: 6vw;
+        }
+}

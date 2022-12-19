@@ -1,0 +1,225 @@
+.work{
+    opacity: 0;
+    transition:  all 1s;
+    width: 80%;
+    height: max-content;
+   /* background-color: rgb(65, 196, 65);*/
+    font-size: 1.5vw;
+    font-family: Poppins;
+    position:inherit;
+  transform: translateX(100%);
+ 
+ padding: 10px;
+ 
+   
+}
+
+.funct,.cls{
+    color: #60c6fe;
+    font-weight: bold;
+
+}
+
+.bod{
+    color: white;
+    flex-wrap: wrap;
+    /*font-size: 1.5vw;*/
+}
+
+
+
+.educ{
+    opacity: 0;
+    transition:  all 1s;
+    width: 80%;
+    height: max-content;
+    /*background-color: #2dca94;*/
+    font-size: 1.5vw;
+    font-family: Poppins;
+    position:inherit;
+   transform: translateX(100%);
+   padding: 10px;
+   
+  
+   
+
+
+
+}
+.skills{
+    opacity: 0;
+    transition:  all 1s;
+    width: 80%;
+    height: max-content;
+    position:inherit;
+    font-size: 1.5vw;
+    font-family: Poppins;
+    padding-right: 10px;
+   transform: translateX(100%);
+
+   padding: 10px;
+   
+   
+
+
+
+}
+
+.hi{
+    color: #60FEE7;
+}
+
+
+    
+
+.work.show{
+    opacity: 1;
+    transform: translateX(0);
+   
+}
+
+.educ.show{
+    opacity: 1;
+    transform: translateX(10%);
+
+}
+
+.skills.show{
+    opacity: 1;
+    transform: translateX(20%);
+
+    
+}
+
+.iconx{
+    padding-top: 5vh;
+    width: 100%;
+    display: flex;
+    height: max-content;
+    flex-direction: row;
+    gap: 1vh;
+    justify-content: flex-end;
+    padding-right: 12vh;
+}
+
+.iconx i{
+  font-size: 5vh;
+  border-radius: 50%;
+  color:white;
+}
+
+.iconx i:hover{
+    color:#60FEE7;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+    .work, .skills, .educ{
+        background-color: #2f3136;
+    }
+
+    .tech{
+        background-color: #36393f;
+    }
+
+    .iconx{
+        padding-right: 0;
+        justify-content: center;  
+    }
+
+    .iconx i{
+        font-size: 4vh;
+      }
+      
+
+    .work.show{
+        opacity: 1;
+        transform: translateX(0);
+       
+    }
+    
+    .educ.show{
+        opacity: 1;
+        transform: translateX(0);
+    
+    }
+    
+    .skills.show{
+        opacity: 1;
+        transform: translateX(0);
+        
+    }
+
+    
+    .work{
+        width: 80%;
+        font-size: 5vw;
+        height: max-content;
+        text-align: left;
+        transform: translateX(-100%);
+        
+        
+
+    }
+    .work div{
+        text-align: left;
+       
+
+    }
+
+    .educ{
+        font-size: 5vw;
+        height: max-content;
+        text-align: left;
+        transform: translateX(100%);
+
+    }
+    .educ div{
+        text-align: left;
+    }
+
+    .skills div{
+        text-align: left;
+
+    }
+    
+    .skills{
+        font-size: 5vw;
+        height: max-content;
+        text-align: left;
+        transform: translateX(-100%);
+
+    }
+
+   
+}
+
+@media only screen and  (max-width: 1000px) and (min-width: 500px) {
+    .work{
+        text-align: center;
+        font-size: 4vw;
+    
+    }
+
+    .educ{
+        text-align: center;
+        font-size: 4vw;
+    
+    }
+    
+    .skills{
+        text-align: center;
+        font-size: 4vw;
+    
+    }
+
+
+}

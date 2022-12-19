@@ -1,0 +1,147 @@
+.rectangle{
+   width: 80%;
+   height: 30vh;
+   background: #60c6fe;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+}
+.picture{
+    /*background-color: aquamarine;*/
+    height: 40vh;
+    width: 40vh;
+    background-image: url("green.png");
+    background-size: cover;
+}
+
+.greet{
+    width: 80%;
+    height: 10vh;
+    /*background-color: blueviolet;*/
+    font-family: Poppins;
+    color: white;
+    font-weight: bold;
+
+}
+
+.about{
+
+    width: 80%;
+    height: max-content;
+    color: #60c6fe;
+ 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    font-weight: bold;
+    padding-left:20px;
+    padding-right: 0px;
+    flex-direction: column;
+
+}
+p{
+    text-align: center;
+    font-size: 1.5vw;
+    color: white
+  
+}
+
+.greet{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2vw;
+    align-self: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+   margin-top: 0;
+   align-self: center;
+   font-size: 1.5vw;
+   text-align: center;
+   color: #60c6fe;
+}
+
+#arrow{
+    font-size: 5vw;
+}
+
+.nam{
+    color: #60FEE7;
+}
+
+
+  
+
+
+
+@media only screen and (max-width: 1000px) {
+
+
+
+
+.banner{
+    padding-top: 8vh;
+   
+}
+    
+#arrow{
+    font-size: 15vw;
+}
+
+
+    .rectangle{
+        width: 90vw;
+        height: 20vh;
+        
+       
+    }
+
+    .picture{
+        height: 30vh;
+        width: 30vh;
+    
+    }
+    .greet{
+        height: max-content;
+    }
+    h1{
+
+        font-size: 8vw;
+    }
+    h2{
+        font-size: 6vw;
+    }
+    
+    p{
+        text-align: center;
+        font-size: 5vw;
+    
+    }
+
+
+
+}
+
+
+@media only screen and  (max-width: 1000px) and (min-width: 500px) {
+    p{
+        text-align: center;
+        font-size: 4vw;
+    
+    }
+    .banner{
+        gap: 1vh;
+    }
+
+}

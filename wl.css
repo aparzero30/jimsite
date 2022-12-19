@@ -1,0 +1,128 @@
+
+@media only screen and (max-width: 1000px) {
+
+    @media (orientation: landscape) {
+
+
+    .banner{
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+       
+    }
+
+        .rectangle{
+         height: 20vw;
+         }
+
+         
+    .picture{
+        height: 30vw;
+        width: 30vw;
+        
+    }
+
+    .boks{
+        width: 40vw;
+    }
+    .cardtitle{
+        font-size: 2vw;
+    }
+
+    .desc{
+
+        width:  38vw;
+        font-size: 2vw;
+        padding: 1vw;
+    }
+
+    
+.tech label{
+    font-size: 2vw;
+}
+
+.proj {
+    padding-bottom: 10vw;
+}
+
+.about{
+    gap: 5vw;
+}
+
+.greet h1, h2{
+    font-size: 5vw;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.greet h2{
+    font-size: 3vw;
+    padding-top: 0;
+}
+
+
+.about{
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+
+#arrow{
+    font-size: 10vw;
+    height: 100%;
+
+}
+
+.about p{
+font-size: 2.5vw;
+margin-top: 0;
+text-align: left;
+
+}
+
+.frm{
+    padding-top: 5vw;
+}
+.image{
+    height: 27vw;
+}
+
+.menu div{
+    min-height: 10vh;
+    padding: 5vh;
+}
+
+
+
+
+#msgico{
+    font-size: 10vw;
+}
+
+.conta{
+    padding-bottom: 5vw;
+    justify-content: flex-start;
+   
+}
+
+.details div div{
+    font-size: 2.5vw;
+}
+
+#menu-icon{
+    font-size: 8vw;
+}
+
+.iconx i{
+    font-size: 5vw;
+    margin: 1vw;
+  }
+
+    }
+
+    .preview h5{
+
+        font-size: 10vw;
+    
+    }
+
+}
